@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 400px;
+    background-image: url(../img/jugando.jpg);
+    background-size: cover;
+    background-position: 50% 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 7vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 10px 5px 10px black;
+}
+
+.nav_menu{
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.logo {
+    height: 80%;
+    padding-left: 20px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box {
+    background-color: burlywood;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box p {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.responsive {
+    width: 100%;
+}
+
+
+.seccion-img {
+    display: flex;
+    height: 300px;
+    padding: 50px;
+    background-color: antiquewhite;
+}
+
+
+.seccion-1 {
+    display: flex;
+    height: 300px;
+}
+
+.colum{
+    background-color: cornflowerblue;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+
+
+
+.seccion-texto {
+
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 80%;
+    border: 1px solid gray;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.7);
+    transform: rotate(-4deg);
+    transition: all 0.7s;
+    filter: grayscale(100%);
+}
+
+.img img:hover {
+    transform: rotate(4deg);
+    filter: grayscale(0%);
+    cursor: pointer;
+}
+
+.mensaje3 {
+    background-color: blueviolet;
+    color: beige;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.7);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    height: 200px;
+    width: 80%;
+    position: absolute;
+    top:120%;
+    left: 10%;
+    transition: all 2s;
+}
+
+.mensaje:hover {
+    top: -10%;
+    transform: scale(1.1);
+}
+
+.mensaje23 {
+    background-color: rgb(226, 95, 43);
+    color: beige;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.7);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    height: 100px;
+    width: 80%;
+    position: absolute;
+    top:150%;
+    left: 10%;
+    transition: all 2s;
+}
